@@ -21,7 +21,7 @@ if(place_meeting(x+5,y,obj_cama) || place_meeting(x-5,y,obj_cama) || place_meeti
 	if(keyboard_check(vk_enter) && dormindo = false){
 		show_message("voce esta dormindo");
 		sprite_index = spr_player_dormindo;
-		global.tempoDormindo = 60;
+		global.tempoDormindo = 200;
 		dormindo = true;
 		movimentacao = false;//n se move
 	}

@@ -778,6 +778,44 @@
                 "resourcePath": "sprites\\spr_botoes_pc\\spr_botoes_pc.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "437e789f-0b73-4297-b5a7-477a3d5a890d",
+            "Value": {
+                "id": "7beb13fc-ec01-4c85-bc68-a4d71e707df2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_botao_recusar\\spr_botao_recusar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bffb12bd-b777-44f3-9ca0-763331f12e2d",
+            "Value": {
+                "id": "dd247106-aa87-4716-84cb-d17382581863",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_botao_aceitar\\spr_botao_aceitar.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [
