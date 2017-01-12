@@ -1,0 +1,1 @@
+global.usandoPc = false;
