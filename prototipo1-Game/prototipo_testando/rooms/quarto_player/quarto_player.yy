@@ -118,8 +118,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_23D08C80",
-                    "x": 576,
-                    "y": 32,
+                    "x": 544,
+                    "y": 64,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -142,7 +142,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_619F9313",
-                    "x": 384,
+                    "x": 352,
                     "y": 0,
                     "IsDnD": false,
                     "colour": {
@@ -191,7 +191,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3657631A",
                     "x": 0,
-                    "y": 448,
+                    "y": 480,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -202,8 +202,8 @@
                     "name_with_no_file_rename": "inst_3657631A",
                     "objId": "8b32c218-7a67-4122-aa46-9825ac1e410e",
                     "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
+                    "scaleX": 1.5,
+                    "scaleY": 2
                 }
             ]
         },

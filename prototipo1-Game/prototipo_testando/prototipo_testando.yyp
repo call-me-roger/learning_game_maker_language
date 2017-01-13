@@ -816,6 +816,44 @@
                 "resourcePath": "sprites\\spr_botao_aceitar\\spr_botao_aceitar.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "09e72095-4b59-4934-83cd-dd66ce42f703",
+            "Value": {
+                "id": "09727822-2c88-4715-8d6c-52785ba2d88e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_tapete\\spr_tapete.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba8723b4-e2fe-42d3-9fba-e3ba0c631d05",
+            "Value": {
+                "id": "a0626142-70e3-4ff5-94fc-f259c23b1efe",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_tapete\\obj_tapete.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
