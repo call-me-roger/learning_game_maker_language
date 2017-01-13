@@ -1,7 +1,7 @@
 //Movimentacao
 
 if(movimentacao){
-	var velo = 100;
+	var velo = 20;
 	if(keyboard_check(ord("W"))){
 		y -= velo;
 	}
