@@ -12,4 +12,9 @@ globalvar proxRoom, anteRoom;
 proxRoom = false;
 anteRoom = false;
 
- 
+//Mouse
+
+global.mouseXPos = window_mouse_get_x();
+global.mouseYPos = window_mouse_get_y();
+global.botaoFecharPCWidth = 50;
+global.botaoFecharPCHeight = 50;

@@ -2,7 +2,7 @@
     "id": "44ef463c-b019-4556-99a6-8ecd54378045",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pc_ativo",
+    "name": "draw_pc_ativo",
     "eventList": [
         {
             "id": "33557712-da5d-4da0-b476-13e0116e528f",

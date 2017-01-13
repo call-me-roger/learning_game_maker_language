@@ -892,6 +892,25 @@
                 "resourcePath": "views\\ffbfa3ad-8e1a-4874-ae88-7589ebc8bb97.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "6b6f67ba-25bc-4b48-ae9e-bfdfd7418f6d",
+            "Value": {
+                "id": "267ed5e8-dca8-478a-8b62-1f0755fec7de",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_botaoFecharPC\\spr_botaoFecharPC.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [
