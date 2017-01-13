@@ -1,7 +1,7 @@
 {
     "id": "bffb12bd-b777-44f3-9ca0-763331f12e2d",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.11",
     "name": "spr_botao_aceitar",
     "For3D": false,
     "HTile": false,
