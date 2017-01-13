@@ -9,5 +9,4 @@ if(global.usandoPc){
 	draw_sprite(spr_botoes_pc,0,530,140);
 	draw_sprite(spr_botoes_pc,0,530,170);
 	cursor_sprite = spr_cursor_pc;
-	draw_text(x,y,"Leo Boiola - GAY");
 }    
