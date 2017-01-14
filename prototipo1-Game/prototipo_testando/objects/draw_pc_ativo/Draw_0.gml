@@ -1,4 +1,9 @@
 if(global.usandoPc){
+
+//Mudar mouse
+//with (obj_mouse) sprite_index = spr_cursor_pc;
+with (obj_mouse) image_index = mouse_cursor; 
+
 	movimentacao = false;
 	draw_sprite(spr_tela_pc,0,400,400);
 	draw_sprite(spr_projeto,0,xProjeto1,yProjeto1);
@@ -30,6 +35,7 @@ if(global.usandoPc){
 			global.tempoFecha = 0;
 			global.usandoPc = false;
 			movimentacao = true;
+			//with (obj_mouse) sprite_index = spr_mouse;
 		}
 	}else{
 		anim_botao = 0;
@@ -50,52 +56,68 @@ if(global.usandoPc){
 	if(mouse_x > xBtnProj1-(btnProjWidth/2) and mouse_x < xBtnProj1+(btnProjWidth/2)
 	and mouse_y > yBtnProj1-(btnProjHeigh/2) and mouse_y < yBtnProj1+(btnProjHeigh/2)){
 		anim_btnProj1 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnProj1 = 0;
+		mouse_cursor = 0;
 	}
 	if(mouse_x > xBtnProj2-(btnProjWidth/2) and mouse_x < xBtnProj2+(btnProjWidth/2)
 	and mouse_y > yBtnProj2-(btnProjHeigh/2) and mouse_y < yBtnProj2+(btnProjHeigh/2)){
 		anim_btnProj2 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnProj2 = 0;
+		mouse_cursor = 0;
 	}
 	if(mouse_x > xBtnProj3-(btnProjWidth/2) and mouse_x < xBtnProj3+(btnProjWidth/2)
 	and mouse_y > yBtnProj3-(btnProjHeigh/2) and mouse_y < yBtnProj3+(btnProjHeigh/2)){
 		anim_btnProj3 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnProj3 = 0;
+		mouse_cursor = 0;
 	}
 	if(mouse_x > xBtnProj4-(btnProjWidth/2) and mouse_x < xBtnProj4+(btnProjWidth/2)
 	and mouse_y > yBtnProj4-(btnProjHeigh/2) and mouse_y < yBtnProj4+(btnProjHeigh/2)){
 		anim_btnProj4 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnProj4 = 0;
+		mouse_cursor = 0;
 	}
 	
 	//BOTOES ACEITAR
 	if(mouse_x > xBtnAProj1-(btnProjWidth/2) and mouse_x < xBtnAProj1+(btnProjWidth/2)
 	and mouse_y > yBtnProj1-(btnProjHeigh/2) and mouse_y < yBtnProj1+(btnProjHeigh/2)){
 		anim_btnAProj1 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnAProj1 = 0;
+		mouse_cursor = 0;
 	}
 	if(mouse_x > xBtnAProj2-(btnProjWidth/2) and mouse_x < xBtnAProj2+(btnProjWidth/2)
 	and mouse_y > yBtnProj2-(btnProjHeigh/2) and mouse_y < yBtnProj2+(btnProjHeigh/2)){
 		anim_btnAProj2 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnAProj2 = 0;
+		mouse_cursor = 0;
 	}
 	if(mouse_x > xBtnAProj3-(btnProjWidth/2) and mouse_x < xBtnAProj3+(btnProjWidth/2)
 	and mouse_y > yBtnProj3-(btnProjHeigh/2) and mouse_y < yBtnProj3+(btnProjHeigh/2)){
 		anim_btnAProj3 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnAProj3 = 0;
+		mouse_cursor = 0;
 	}
 	if(mouse_x > xBtnAProj4-(btnProjWidth/2) and mouse_x < xBtnAProj4+(btnProjWidth/2)
 	and mouse_y > yBtnProj4-(btnProjHeigh/2) and mouse_y < yBtnProj4+(btnProjHeigh/2)){
 		anim_btnAProj4 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnAProj4 = 0;
+		mouse_cursor = 0;
 	}
 	
 	//Botoes PC
@@ -103,26 +125,34 @@ if(global.usandoPc){
 	if(mouse_x > xBtnPC1-(btnPCWidth/2) and mouse_x < xBtnPC1+(btnPCWidth/2)
 	and mouse_y > yBtnPC1-(btnPCHeight/2) and mouse_y < yBtnPC1+(btnPCHeight/2)){
 		anim_btnPC1 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnPC1 = 0;
+		mouse_cursor = 0;
 	}
 	if(mouse_x > xBtnPC2-(btnPCWidth/2) and mouse_x < xBtnPC2+(btnPCWidth/2)
 	and mouse_y > yBtnPC2-(btnPCHeight/2) and mouse_y < yBtnPC2+(btnPCHeight/2)){
 		anim_btnPC2 = 1;
+		mouse_cursor  = 1;
 	}else{
 		anim_btnPC2 = 0;
+		mouse_cursor = 0;
 	}
 	if(mouse_x > xBtnPC3-(btnPCWidth/2) and mouse_x < xBtnPC3+(btnPCWidth/2)
 	and mouse_y > yBtnPC3-(btnPCHeight/2) and mouse_y < yBtnPC3+(btnPCHeight/2)){
 		anim_btnPC3 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnPC3 = 0;
+		mouse_cursor = 0;
 	}
 	if(mouse_x > xBtnPC4-(btnPCWidth/2) and mouse_x < xBtnPC4+(btnPCWidth/2)
 	and mouse_y > yBtnPC4 -(btnPCHeight/2) and mouse_y < yBtnPC4+(btnPCHeight/2)){
 		anim_btnPC4 = 1;
+		mouse_cursor = 1;
 	}else{
 		anim_btnPC4 = 0;
+		mouse_cursor = 0;
 	}
 		
 }

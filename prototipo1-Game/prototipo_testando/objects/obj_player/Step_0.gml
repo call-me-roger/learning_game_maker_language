@@ -16,22 +16,21 @@ if(movimentacao){
 	}
 }
 //Dormir
-
-if(place_meeting(x+5,y,obj_cama) || place_meeting(x-5,y,obj_cama) || place_meeting(x,y+5,obj_cama) || place_meeting(x,y+5,obj_cama)){
-	if(keyboard_check(vk_enter) && dormindo = false){
-		show_message("voce esta dormindo");
-		sprite_index = spr_player_dormindo;
-		global.tempoDormindo = 200;
-		dormindo = true;
-		movimentacao = false;//n se move
-	}
-	global.tempoDormindo -= 1;
-		if(global.tempoDormindo == 0){
-			sprite_index = spr_player;
-			dormindo = false;
-			movimentacao = true;//movimentacao habilitada de novo
+	if(place_meeting(x+5,y,obj_cama) || place_meeting(x-5,y,obj_cama) || place_meeting(x,y+5,obj_cama) || place_meeting(x,y+5,obj_cama)){
+		if(keyboard_check(vk_enter) && dormindo = false){
+			show_message("voce esta dormindo");
+			sprite_index = spr_player_dormindo;
+			global.tempoDormindo = 200;
+			dormindo = true;
+			movimentacao = false;//n se move
 		}
-}
+		global.tempoDormindo -= 1;
+			if(global.tempoDormindo == 0){
+				sprite_index = spr_player;
+				dormindo = false;
+				movimentacao = true;//movimentacao habilitada de novo
+			}
+	}
 
 //Mexer no pc
 if(place_meeting(x+5,y,obj_pc) || place_meeting(x-5,y,obj_pc) || place_meeting(x,y+5,obj_pc) || place_meeting(x,y+5,obj_pc)){
