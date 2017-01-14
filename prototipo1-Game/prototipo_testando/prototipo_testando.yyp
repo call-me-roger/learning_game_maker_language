@@ -395,7 +395,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourcePath": "sprites\\spr_player_dormindo\\spr_player_dormindo.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -495,9 +495,9 @@
             }
         },
         {
-            "Key": "aac62879-8a1c-40aa-a4e9-a493aedb49e8",
+            "Key": "ff5d10cf-5f8c-40c6-bb9f-e29e8dc6a281",
             "Value": {
-                "id": "757c21e0-c38b-45d8-9b66-c6f3fa994a5e",
+                "id": "9e037bba-c5d2-44b9-9d16-5ee20744e8f7",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -509,7 +509,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\\spr_player_dormindo\\spr_player_dormindo.yy",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -890,6 +890,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\\spr_botaoFecharPC\\spr_botaoFecharPC.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7acc35fb-c947-429f-ab23-b5297294d252",
+            "Value": {
+                "id": "b830623c-f7a0-4a83-93e1-87e928525bfb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_btnInfo\\spr_btnInfo.yy",
                 "resourceType": "GMSprite"
             }
         }
