@@ -14,3 +14,23 @@ yProjeto1 = 300;
 yProjeto2 = 300;
 yProjeto3 = 550;
 yProjeto4 = 550;
+
+
+//Botoes Projeto
+
+globalvar xBtnProj1,xBtnProj2,xBtnProj3,xBtnProj4;
+xBtnProj1 = 123;
+xBtnProj2 = 323;
+xBthProj3 = 123;
+xBtnProj4 = 323;
+
+globalvar yBtnProj1,yBtnProj2,yBtnProj3,yBtnProj4;
+yBtnProj1 = 317;
+yBtnProj2 = 317;
+yBtnProj3 = 567;
+yBtnProj4 = 567;
+
+globalvar anim_btnProj,btnProjWidth,btnProjHeight;
+anim_btnProj = 0; 
+btnProjWidth = 33;
+btnProjHeight = 11;

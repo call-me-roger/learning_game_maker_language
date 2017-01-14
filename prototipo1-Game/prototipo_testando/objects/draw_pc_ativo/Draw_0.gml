@@ -9,7 +9,6 @@ if(global.usandoPc){
 	draw_sprite(spr_botoes_pc,0,530,110);
 	draw_sprite(spr_botoes_pc,0,530,140);
 	draw_sprite(spr_botoes_pc,0,530,170);
-	cursor_sprite = spr_cursor_pc;
 	draw_sprite(spr_botaoFecharPC,anim_botao,610,20);
 
 	botaoFecharPCWidth = 50;
@@ -17,7 +16,8 @@ if(global.usandoPc){
 	mouseXPos = window_mouse_get_x();
 	mouseYPos = window_mouse_get_y();
 
-	if(mouseXPos > 610-botaoFecharPCWidth and mouseXPos < 610+botaoFecharPCWidth and mouseYPos > 20 and mouseYPos < 20+botaoFecharPCHeight){
+	if(mouseXPos > 610-(botaoFecharPCWidth/2) and mouseXPos < 610+(botaoFecharPCWidth/2 + 4) 
+	and mouseYPos > 20-botaoFecharPCHeight and mouseYPos < 20+botaoFecharPCHeight){
 		anim_botao = 1;
 		if(mouse_check_button_pressed(mb_left)){
 			global.tempoFecha = 10;
@@ -31,4 +31,16 @@ if(global.usandoPc){
 	}else{
 		anim_botao = 0;
 	}
+	//Projetos Botoes
+	
+	draw_sprite(spr_botao_recusar,anim_btnProj,xBtnProj1,yBtnProj1);
+	draw_sprite(spr_botao_recusar,anim_btnProj,xBtnProj2,yBtnProj2);
+	
+	if(mouseXPos > xBtnProj1-(btnProjWidth/2) and mouseXPos < xBtnProj1-(btnProjWidth/2 + 4)
+	and mouseYPos > yBtnProj1-btnProjHeight and mouseYPos < yBtnProj1+btnProjHeight){
+		anim_btnProj = 1;
+	}else{
+		anim_btnProj = 0;
+	}
+		
 }
