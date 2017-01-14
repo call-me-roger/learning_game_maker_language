@@ -61,6 +61,12 @@ anim_btnAProj3 = 0;
 anim_btnAProj4 = 0;
 
 //Botoes PC
+
+//Tamanho
+globalvar btnPCWidth,btnPCHeight;
+btnPCWidth = 100;
+btnPCHeight = 40;
+
 //Localizacao X
 globalvar xBtnPC1,xBtnPC2,xBtnPC3,xBtnPC4;
 xBtnPC1 = 670;
@@ -69,7 +75,16 @@ xBtnPC3 = 670;
 xBtnPC4 = 670;
 //Localizacao Y
 globalvar yBtnPC1,yBtnPC2,yBtnPC3,yBtnPC4;
-yBtnPC1 = 100;
-yBtnPC2 = 200;
-yBtnPC3 = 300;
-yBtnPC4 = 400;
+yBtnPC1 = 200;
+yBtnPC2 = 300;
+yBtnPC3 = 400;
+yBtnPC4 = 500;
+
+
+//Animacao 
+globalvar anim_btnPC1,anim_btnPC2,anim_btnPC3,anim_btnPC4;
+anim_btnPC1 = 0;
+anim_btnPC2 = 0;
+anim_btnPC3 = 0;
+anim_btnPC4 = 0;
+
