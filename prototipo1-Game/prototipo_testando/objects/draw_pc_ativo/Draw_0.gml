@@ -1,23 +1,25 @@
 if(global.usandoPc){
-	
-	draw_sprite(spr_tela_pc,0,50,50);
+	movimentacao = false;
+	draw_sprite(spr_tela_pc,0,400,400);
 	draw_sprite(spr_projeto,0,xProjeto1,yProjeto1);
 	draw_sprite(spr_projeto,0,xProjeto2,yProjeto2);
 	draw_sprite(spr_projeto,0,xProjeto3,yProjeto3);
 	draw_sprite(spr_projeto,0,xProjeto4,yProjeto4);
-	draw_sprite(spr_botoes_pc,0,530,80);
-	draw_sprite(spr_botoes_pc,0,530,110);
-	draw_sprite(spr_botoes_pc,0,530,140);
-	draw_sprite(spr_botoes_pc,0,530,170);
-	draw_sprite(spr_botaoFecharPC,anim_botao,610,20);
+	draw_sprite(spr_botoes_pc,0,xBtnPC1,yBtnPC1);
+	draw_sprite(spr_botoes_pc,0,xBtnPC2,yBtnPC2);
+	draw_sprite(spr_botoes_pc,0,xBtnPC3,yBtnPC3);
+	draw_sprite(spr_botoes_pc,0,xBtnPC4,yBtnPC4);
+	draw_sprite(spr_botaoFecharPC,anim_botao,720,35);
+	
 
 	botaoFecharPCWidth = 50;
 	botaoFecharPCHeight = 50;
 	mouseXPos = window_mouse_get_x();
 	mouseYPos = window_mouse_get_y();
 
-	if(mouseXPos > 610-(botaoFecharPCWidth/2) and mouseXPos < 610+(botaoFecharPCWidth/2 + 4) 
-	and mouseYPos > 20-botaoFecharPCHeight and mouseYPos < 20+botaoFecharPCHeight){
+//Botao Fechar PC
+	if(mouseXPos > 720-(botaoFecharPCWidth/2) and mouseXPos < 720+(botaoFecharPCWidth/2 + 4) 
+	and mouseYPos > 35-botaoFecharPCHeight and mouseYPos < 35+botaoFecharPCHeight){
 		anim_botao = 1;
 		if(mouse_check_button_pressed(mb_left)){
 			global.tempoFecha = 10;
@@ -27,11 +29,12 @@ if(global.usandoPc){
 		if(global.tempoFecha == 1){
 			global.tempoFecha = 0;
 			global.usandoPc = false;
+			movimentacao = true;
 		}
 	}else{
 		anim_botao = 0;
 	}
-	//Projetos Botoes
+//Projetos Botoes
 	
 	draw_sprite(spr_botao_recusar,anim_btnProj,xBtnProj1,yBtnProj1);
 	draw_sprite(spr_botao_recusar,anim_btnProj,xBtnProj2,yBtnProj2);

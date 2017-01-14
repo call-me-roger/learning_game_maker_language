@@ -381,9 +381,9 @@
             }
         },
         {
-            "Key": "7a015d91-6a65-4100-aa5e-4237aec2e08b",
+            "Key": "a13f03f2-5713-4f5d-8826-d040f672cdfb",
             "Value": {
-                "id": "5c360cc1-f74e-4ac9-b186-bb2fbe2a106b",
+                "id": "fc83f02a-03c1-4e10-a5db-e95820b54774",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -492,25 +492,6 @@
                 ],
                 "resourcePath": "views\\dda7736c-8123-4e92-88fd-f9bab9af14ce.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ff5d10cf-5f8c-40c6-bb9f-e29e8dc6a281",
-            "Value": {
-                "id": "9e037bba-c5d2-44b9-9d16-5ee20744e8f7",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\\spr_player\\spr_player.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -909,6 +890,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\\spr_btnInfo\\spr_btnInfo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7d6ba9d4-2fde-4fe7-9d91-e016c46cb54c",
+            "Value": {
+                "id": "ce986e83-8489-46dd-a40c-3abcd6dc0bbb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
             }
         }

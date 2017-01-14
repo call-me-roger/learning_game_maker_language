@@ -34,3 +34,15 @@ globalvar anim_btnProj,btnProjWidth,btnProjHeight;
 anim_btnProj = 0; 
 btnProjWidth = 33;
 btnProjHeight = 11;
+
+globalvar xBtnPC1,xBtnPC2,xBtnPC3,xBtnPC4;
+xBtnPC1 = 670;
+xBtnPC2 = 670;
+xBtnPC3 = 670;
+xBtnPC4 = 670;
+
+globalvar yBtnPC1,yBtnPC2,yBtnPC3,yBtnPC4;
+yBtnPC1 = 100;
+yBtnPC2 = 200;
+yBtnPC3 = 300;
+yBtnPC4 = 400;
