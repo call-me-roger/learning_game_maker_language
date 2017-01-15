@@ -222,3 +222,5 @@ if(global.usandoPc){
 	}else{
 		anim_btnProj4 = 0;
 	}
+	
+//Botao Info
