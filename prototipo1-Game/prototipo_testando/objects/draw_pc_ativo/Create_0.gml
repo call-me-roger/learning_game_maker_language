@@ -61,6 +61,16 @@ anim_btnAProj3 = 0;
 anim_btnAProj4 = 0;
 
 //Botoes PC
+globalvar  btnAtivo;
+btnAtivo = true;
+
+//TXT
+globalvar btn1Txt,btn2Txt,btn3Txt,btn4Txt,categoria;
+btn1Txt = "Projetos";
+btn2Txt = "Noticias";
+btn3Txt = "Chat";
+btn4Txt = "Portifolio";
+categoria = btn1Txt;
 
 //Tamanho
 globalvar btnPCWidth,btnPCHeight;
