@@ -1,4 +1,4 @@
-globalvar padrao,over,click;
+globalvar mouse_cursor;
 mouse_cursor = 0;
 
 image_index = mouse_cursor;
