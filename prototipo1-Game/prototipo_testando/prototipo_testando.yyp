@@ -1025,6 +1025,44 @@
                 "resourcePath": "objects\\obj_ger_projetos\\obj_ger_projetos.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "f1416673-ef99-4bd0-805a-de50138ac932",
+            "Value": {
+                "id": "0496e32e-4441-4c08-96ef-9ad3c4425350",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_chao_do_quarto\\spr_chao_do_quarto.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "38c3b94d-9f71-4ec2-aa06-60df8efe4f41",
+            "Value": {
+                "id": "3df73acd-5c6d-4179-b56b-f965c6cb211c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_chapao_do_quarto\\obj_chapao_do_quarto.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
