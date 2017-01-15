@@ -1,3 +1,8 @@
+//restart game
+if(keyboard_check(ord("R"))){
+	game_restart();
+}
+
 //Movimentacao
 
 if(movimentacao){

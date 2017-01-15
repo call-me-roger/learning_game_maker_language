@@ -3,33 +3,48 @@
 if(btnProj_action == aceitarProj){
 	if(id_proj == 1){
 		statusProj1 = sAtivo;
-		show_message("projeto 1 ativo");
-	}else
+		sPendente1 = false;
+		btnProj_action = resetAction;
+	}
 	if(id_proj == 2){
 		statusProj2 = sAtivo;
-		show_message("projeto 2 ativo");
-	}else
+		sPendente2 = false;
+		btnProj_action = resetAction;
+	}
 	if(id_proj == 3){
 		statusProj3 = sAtivo;
-		show_message("projeto 3 ativo");
-	}else
+		sPendente3 = false;
+		btnProj_action = resetAction;
+	}
 	if(id_proj == 4){
 		statusProj4 = sAtivo;
-		show_message("projeto 4 ativo");
+		sPendente4 = false;
+		btnProj_action = resetAction;
 	}
 }else
-if(excluirProj){
-	if(id_proj == 1){
+if(btnProj_action == recusarProj){
+	if(id_proj == 1 && statusProj1 != sAtivo){
+		statusProj1 = sRecusado;
+		sPendente1 = false;
 		mostrarProj1 = false;
-	}
-	if(id_proj == 2){
+		btnProj_action = resetAction;
+	}else
+	if(id_proj == 2 && statusProj2 != sAtivo){
+		statusProj2 = sRecusado;
+		sPendente2 = false;
 		mostrarProj2 = false;
-	}
-	if(id_proj == 3){
+		btnProj_action = resetAction;
+	}else
+	if(id_proj == 3 && statusProj3 != sAtivo){
+		statusProj3 = sRecusado;
+		sPendente3 = false;
 		mostrarProj3 = false;
-	}
-	if(id_proj == 4){
+		btnProj_action = resetAction;
+	}else
+	if(id_proj == 4 && statusProj4 != sAtivo){
+		statusProj4 = sRecusado;
+		sPendente4 = false;
 		mostrarProj4 = false;
+		btnProj_action = resetAction;
 	}
-	excluirProj = false;
 }

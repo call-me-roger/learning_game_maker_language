@@ -99,22 +99,30 @@ with (obj_mouse) image_index = mouse_cursor;
 			draw_text(100,100,string(btn1Txt));
 			if(mostrarProj1){
 				draw_sprite(spr_projeto,0,xProjeto1,yProjeto1);
-				draw_sprite(spr_botao_recusar,anim_btnProj1,xBtnProj1,yBtnProj1);
+				if(sPendente1 == true){
+					draw_sprite(spr_botao_recusar,anim_btnProj1,xBtnProj1,yBtnProj1);
+				}
 				draw_sprite(spr_botao_aceitar,anim_btnAProj1,xBtnAProj1,yBtnProj1);
 			}
 			if(mostrarProj2){
 				draw_sprite(spr_projeto,0,xProjeto2,yProjeto2);
-				draw_sprite(spr_botao_recusar,anim_btnProj2,xBtnProj2,yBtnProj2);
+				if(sPendente2 == true){
+					draw_sprite(spr_botao_recusar,anim_btnProj2,xBtnProj2,yBtnProj2);
+				}
 				draw_sprite(spr_botao_aceitar,anim_btnAProj2,xBtnAProj2,yBtnProj2);
 			}
 			if(mostrarProj3){
 				draw_sprite(spr_projeto,0,xProjeto3,yProjeto3);
-				draw_sprite(spr_botao_recusar,anim_btnProj3,xBtnProj3,yBtnProj3);
+				if(sPendente3 == true){
+					draw_sprite(spr_botao_recusar,anim_btnProj3,xBtnProj3,yBtnProj3);
+				}
 				draw_sprite(spr_botao_aceitar,anim_btnAProj3,xBtnAProj3,yBtnProj3);
 			}
 			if(mostrarProj4){
 				draw_sprite(spr_projeto,0,xProjeto4,yProjeto4);
-				draw_sprite(spr_botao_recusar,anim_btnProj4,xBtnProj4,yBtnProj4);
+				if(sPendente4 == true){
+					draw_sprite(spr_botao_recusar,anim_btnProj4,xBtnProj4,yBtnProj4);
+				}
 				draw_sprite(spr_botao_aceitar,anim_btnAProj4,xBtnAProj4,yBtnProj4);
 			}
 			
@@ -193,9 +201,9 @@ with (obj_mouse) image_index = mouse_cursor;
 	and mouse_y > yBtnProj1-(btnProjHeigh/2) and mouse_y < yBtnProj1+(btnProjHeigh/2)){
 		anim_btnProj1 = 1;
 		mouse_cursor = 1;
-		if(mouse_check_button_released(mb_left)){
+		if(mouse_check_button_released(mb_left) && statusProj1 != sAtivo){
 			id_proj = 1;
-			excluirProj = true;
+			btnProj_action = recusarProj;
 		}
 	}else{
 		anim_btnProj1 = 0;
@@ -205,9 +213,9 @@ with (obj_mouse) image_index = mouse_cursor;
 	and mouse_y > yBtnProj2-(btnProjHeigh/2) and mouse_y < yBtnProj2+(btnProjHeigh/2)){
 		anim_btnProj2 = 1;
 		mouse_cursor = 1;
-		if(mouse_check_button_released(mb_left)){
+		if(mouse_check_button_released(mb_left) && statusProj2 != sAtivo){
 			id_proj = 2;
-			excluirProj = true;
+			btnProj_action = recusarProj;
 		}
 	}else{
 		anim_btnProj2 = 0;
@@ -217,9 +225,9 @@ with (obj_mouse) image_index = mouse_cursor;
 	and mouse_y > yBtnProj3-(btnProjHeigh/2) and mouse_y < yBtnProj3+(btnProjHeigh/2)){
 		anim_btnProj3 = 1;
 		mouse_cursor = 1;
-		if(mouse_check_button_released(mb_left)){
+		if(mouse_check_button_released(mb_left) && statusProj3 != sAtivo){
 			id_proj = 3;
-			excluirProj = true;
+			btnProj_action = recusarProj;
 		}
 	}else{
 		anim_btnProj3 = 0;
@@ -229,9 +237,9 @@ with (obj_mouse) image_index = mouse_cursor;
 	and mouse_y > yBtnProj4-(btnProjHeigh/2) and mouse_y < yBtnProj4+(btnProjHeigh/2)){
 		anim_btnProj4 = 1;
 		mouse_cursor = 1;
-		if(mouse_check_button_released(mb_left)){
+		if(mouse_check_button_released(mb_left) && statusProj4 != sAtivo){
 			id_proj = 4;
-			excluirProj = true;
+			btnProj_action = recusarProj;
 		}
 	}else{
 		anim_btnProj4 = 0;

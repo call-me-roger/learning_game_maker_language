@@ -1,15 +1,23 @@
-globalvar statusProj1,statusProj2,statusProj3,statusProj4,sAtivo,sDesativado,sExcluido;
+globalvar statusProj1,statusProj2,statusProj3,statusProj4,sAtivo,sExcluido,sRecusado;
 statusProj1 = "pendente";
 statusProj2 = "pendente";
 statusProj3 = "pendente";
 statusProj4 = "pendente";
 sAtivo = "ativo";
 sExcluido = "excluir";
-sDesativado = "desativar";
+sRecusado = "recusado";
 
-globalvar btnProj_action,aceitarProj,excluirProj;
-btnProj_action = "nenhuma"; 
+globalvar sPendente1,sPendente2,sPendente3,sPendente4;
+sPendente1 = true;
+sPendente2 = true;
+sPendente3 = true;
+sPendente4 = true;
+
+globalvar btnProj_action,aceitarProj,recusarProj,excluirProj;
+btnProj_action = "nenhuma";
+resetAction = "nenhuma";
 aceitarProj = "aceitar";
+recusarProj = "recusar";
 excluirProj = false;
 
 //Mostrar Projeto
